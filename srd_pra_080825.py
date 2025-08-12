@@ -293,22 +293,24 @@
 # print(merge_lists(a, b))        #output         [1, 2, 3, 4, 5]
 
 
-#List of student names
-students = ["Aarav", "Diya", "Rohan", "Sneha"]
+# #List of student names
+# students = ["Aarav", "Diya", "Rohan", "Sneha"]
 
-#Attendance dictionary
-attendance = {}
+# #Attendance dictionary
+# attendance = {}
 
-#Mark each student as "Present"
-for name in students:
-    attendance[name] = "Present"
+# #Mark each student as "Present"
+# for name in students:
+#     attendance[name] = "Present"
 
-#Display attendance
-for student, status in attendance.items():
-    print(f"{student}: {status}")
+# #Display attendance
+# for student, status in attendance.items():
+#     print(f"{student}: {status}")
 
-#output
-#Aarav: Present
-#Diya: Present
-#Rohan: Present
-#Sneha: Present
+# #output
+# #Aarav: Present
+# #Diya: Present
+# #Rohan: Present
+# #Sneha: Present
+
+

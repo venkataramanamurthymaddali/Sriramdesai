@@ -129,8 +129,8 @@
 
 # Write a function equal(arr, x) that takes an array arr and returns all the elements in that array that are equal to x
 
-def equal(arr, x):
-    return[element for element in arr if element == x]
-data = [3, 5, 2, 5, 7, 5]
-result = equal(data,5)
-print(result)
+# def equal(arr, x):
+#     return[element for element in arr if element == x]
+# data = [3, 5, 2, 5, 7, 5]
+# result = equal(data,5)
+# print(result)
