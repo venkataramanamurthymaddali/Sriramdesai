@@ -191,3 +191,124 @@
 
 # print(greet_user("Venkata"))  # Output: Hello, Venkata! Welcome aboard.
 # print(greet_user("Aman"))     # Output: Hello, Aman! Welcome aboard.
+
+# #Contact list dictionary
+# contacts = {
+#     "Alice": "9876543210",
+#     "Bob": "9123456789",
+#     "Charlie": "9988776655"
+# }
+
+# # Print all names with their phone numbers
+# for name, number in contacts.items():
+#     print(f"{name}: {number}")
+# #output
+# #Alice: 9876543210
+# #Bob: 9123456789
+# #Charlie: 9988776655
+
+
+
+# # Take input from the user
+# sentence = input("Enter a sentence: ")
+
+# #  Split the sentence into words
+# words = sentence.split()
+
+# #  Count the number of words
+# word_count = len(words)
+
+# #  Display the result
+# print(f"Number of words: {word_count}")
+# #output
+# #Enter a sentence: Hare Rama Hare Krishna Rama Rama Hare Hare Krishna Krishna Hare Hare
+# #Number of words: 12
+
+
+# #List of temperatures in Celsius
+# celsius_temps = [0, 20, 37, 100]
+
+# #Convert each Celsius temperature to Fahrenheit
+# for c in celsius_temps:
+#     f = (c * 9/5) + 32
+#     print(f"{c}°C = {f:.1f}°F")
+# #output
+# #0°C = 32.0°F
+# #20°C = 68.0°F
+# #37°C = 98.6°F
+# #100°C = 212.0°F 
+
+
+# def filter_positive(numbers):
+#     positive_numbers = []
+#     for num in numbers:
+#         if num > 0:
+#             positive_numbers.append(num)
+#     return positive_numbers
+
+
+# sample_list = [-5, 0, 3, 9, -2, 7]
+# print(filter_positive(sample_list))  # Output: [3, 9, 7]
+
+# #Predefined list of usernames
+# existing_users = ["alice", "bob", "charlie", "diana"]
+
+# #Ask for input
+# username = input("Enter your username: ").strip().lower()
+
+# #Check if username exists
+# if username in existing_users:
+#     print("Username already exists.")       #Enter your username: Alice   Username already exists.
+# else:
+#     print("Username not found.")             #Enter your username: john    Username not found.
+
+
+#git checkout -b feature-login
+#- git checkout -b creates the branch and switches to it in one step.
+#- feature-login is the name of your new branch.
+#for latest git version
+#git switch -c feature-login
+
+
+#git pull
+#- git pull is shorthand for git fetch followed by git merge
+#- It grabs the latest commits from the remote repository and merges them into your current branch.
+
+
+# def merge_lists(list1, list2):
+#     seen = set()
+#     merged = []
+#     for item in list1 + list2:
+#         if item not in seen:
+#             seen.add(item)
+#             merged.append(item)
+#     return merged
+
+# def merge_lists(list1, list2):
+#     return list(set(list1 + list2))
+
+
+# a = [1, 2, 3]
+# b = [3, 4, 5]
+# print(merge_lists(a, b))        #output         [1, 2, 3, 4, 5]
+
+
+#List of student names
+students = ["Aarav", "Diya", "Rohan", "Sneha"]
+
+#Attendance dictionary
+attendance = {}
+
+#Mark each student as "Present"
+for name in students:
+    attendance[name] = "Present"
+
+#Display attendance
+for student, status in attendance.items():
+    print(f"{student}: {status}")
+
+#output
+#Aarav: Present
+#Diya: Present
+#Rohan: Present
+#Sneha: Present
